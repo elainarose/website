@@ -87,7 +87,6 @@ export default function LabLinksWebsite() {
                 <div>
                   <h2 className="text-2xl font-semibold tracking-tight">Quick Links</h2>
                   <p className="mt-2 text-sm leading-6 text-slate-600">
-                    Fast access to the tools your group uses most often.
                   </p>
                 </div>
               </div>
@@ -120,8 +119,6 @@ export default function LabLinksWebsite() {
             <section className="rounded-[2rem] bg-white p-8 shadow-sm">
               <h2 className="text-2xl font-semibold tracking-tight">Research</h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-600">
-                Use this section for a short description of the lab mission, core research
-                questions, and the impact of your work.
               </p>
               <div className="mt-6 grid gap-4 sm:grid-cols-3">
                 {researchAreas.map((item) => (
@@ -137,8 +134,7 @@ export default function LabLinksWebsite() {
             <section className="rounded-[2rem] bg-white p-8 shadow-sm">
               <h2 className="text-2xl font-semibold tracking-tight">People</h2>
               <p className="mt-3 text-sm leading-7 text-slate-600">
-                Add faculty, postdocs, graduate students, staff, and collaborators here.
-                You could also link to member bios or profile pages.
+                Add faculty, postdocs, graduate students, staff, and collaborators.
               </p>
             </section>
 
